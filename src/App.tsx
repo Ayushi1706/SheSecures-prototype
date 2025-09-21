@@ -208,7 +208,7 @@ const ProfileContent = memo(function ProfileContent() {
           <div className="w-20 h-20 bg-gradient-to-r from-pink-400 to-purple-500 rounded-full mx-auto mb-4 flex items-center justify-center">
             <User className="w-10 h-10 text-white" />
           </div>
-          <h2 className="mb-2">Anonymous User</h2>
+          <h2 className="mb-2">Ayushi Singh</h2>
           <Badge variant="secondary">Verified</Badge>
         </div>
       </Card>
