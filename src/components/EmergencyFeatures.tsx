@@ -157,9 +157,9 @@ export function EmergencyFeatures({ onEmergency }: EmergencyFeaturesProps) {
               <Switch 
                 checked={contact.active}
                 onCheckedChange={(checked) => {
-                  const updated = [...trustedContacts];
+                  const updated = [...EmergencyContacts];
                   updated[index].active = checked;
-                  setTrustedContacts(updated);
+                  setEmergencyContacts(updated);
                 }}
               />
             </div>
@@ -171,7 +171,7 @@ export function EmergencyFeatures({ onEmergency }: EmergencyFeaturesProps) {
       <div className="grid grid-cols-2 gap-4">
         <Button variant="outline" className="flex flex-col items-center p-4 h-auto">
           <Phone className="w-6 h-6 mb-2 text-blue-500" />
-          <span className="text-sm">Call 112</span>
+          <span className="text-sm">Call 100</span>
         </Button>
         <Button variant="outline" className="flex flex-col items-center p-4 h-auto">
           <Volume2 className="w-6 h-6 mb-2 text-orange-500" />
