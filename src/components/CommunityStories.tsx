@@ -70,7 +70,7 @@ export function CommunityStories() {
       isAnonymous: false,
       timestamp: '1 month ago',
       category: 'Community Support',
-      content: "Thank you to everyone who shared resources about dealing with stalking. Your support and advice helped me take the right steps to stay safe. This community is truly amazing.",
+      content: "Share your live location with trusted contacts when traveling late. It’s a small step, but it can make a big difference for your safety and your family’s peace of mind..",
       likes: 67,
       comments: 23,
       helpful: true,
